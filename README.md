@@ -4,7 +4,7 @@ This git provides the most simple way to convert Gadget's simulation in HDF5 for
 
 It requires the user to already have Firefly downloaded: https://github.com/ageller/Firefly
 
-Once it is done, you can put the python code is the firefly_api folder : Firefly/data/firefly_api (it needs FIREreader to work)
+Once it is done, you can put the python code in the firefly_api folder : Firefly/data/firefly_api (it needs FIREreader to work)
 
 As written in the code, one needs to create a subdirectory in Firefly/data in order to put the .json files in it.
 
@@ -23,7 +23,7 @@ If the code line is:
 ```python
 {"0":"data\/isolatedGalaxy_s50"}
 ```
-The change it to: 
+Then change it to: 
 ```python
 {"0":"data\/isolatedGalaxy_s50","1":"data\/..."} 
 ```
