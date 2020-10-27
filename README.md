@@ -17,7 +17,7 @@ $ python3 -m http.server
 
 Then open your browser and enter the url : http://localhost:8000/
 
-Go to the Firefly directory: it will launch the app. Click on the screen and select the directory from your startup file (it will show you the inner example of Firefly and the one you have create).
+Go to the Firefly directory: it will launch the app. Click on the screen and select the directory from your startup file (it will show you the inner example of Firefly and the one you have created).
 
 If not, you have to modify startup.json in Firefly/data.
 If the code line is: 
