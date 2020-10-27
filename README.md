@@ -1,6 +1,7 @@
 # Convert-Firefly
 
 This git provides the most simple way to convert Gadget's simulation in HDF5 format to .json one in order to feed it into Firefly.
+The version of Python used is Python3.
 
 It requires the user to already have Firefly downloaded: https://github.com/ageller/Firefly
 
