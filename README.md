@@ -9,14 +9,17 @@ Once it is done, you can put the python code is the firefly_api folder : Firefly
 As written in the code, one needs to create a subdirectory in Firefly/data in order to put the .json files in it.
 
 When it is done:
+
+```python
 $ python3 -m http.server
+```
 
 Then open your browser and enter the url : http://localhost:8000/
 
 Go to the Firefly directory: it will launch the app. Click on the screen and select the directory from your startup file (it will show you the inner example of Firefly and the one you have create).
 
 You should have something like:
-![Alt text](/home/dchosson/Documents/Master/M2/Project/pic/json.jpg?raw=true "Firefly_screen")
+![GitHub Logo](/home/dchosson/Documents/Master/M2/Project/pic/json.jpg?raw=true "Firefly_screen")
 
 If not, you have to modify startup.json in Firefly/data.
 If the code line is: {"0":"data\/isolatedGalaxy_s50"}
